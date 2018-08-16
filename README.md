@@ -1,4 +1,4 @@
-"# tiny" 
+# tiny
 
 One of the world's tiniest NPM packages
 
