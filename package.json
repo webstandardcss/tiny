@@ -1,4 +1,19 @@
 {
     "name": "@webstandardcss/tiny",
     "version": "1.0.0"
+    "description": "Removes all spaces from a string",
+    "license": "MIT",
+    "repository": "webstandardcss/tiny",
+    "main": "index.js",
+    "keywords": [
+      "tiny",
+      "string replace",
+      "remove spaces",
+      "delete spaces",
+      "simple",
+      "example",
+      "npm",
+      "package",
+      "webstandardcss"
+    ]
 }
