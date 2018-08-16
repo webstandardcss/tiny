@@ -1,8 +1,26 @@
-# tiny
+# @webstandardcss/tiny
 
-One of the world's tiniest NPM packages
+[![npm (scoped)](https://img.shields.io/npm/v/@webstandardcss/tiny.svg)](https://www.npmjs.com/package/@webstandardcss/tiny)
+[![npm bundle size (minified)](https://img.shields.io/bundlephobia/min/@webstandardcss/tiny.svg)](https://www.npmjs.com/package/@webstandardcss/tiny)
 
-![NpmVersion](https://img.shields.io/npm/v/npm.svg)
-![npm bundle size (minified)](https://img.shields.io/bundlephobia/min/react.svg)
+Removes all spaces from a string.
 
-### It's The Tiniest
+## Install
+
+```
+$ npm install @webstandardcss/tiny
+```
+
+## Usage
+
+```js
+const tiny = require("@webstandardcss/tiny");
+
+tiny("So much space!");
+//=> "Somuchspace!"
+
+tiny(1337);
+//=> Uncaught TypeError: Tiny wants a string!
+//    at tiny (<anonymous>:2:41)
+//    at <anonymous>:1:1
+```
